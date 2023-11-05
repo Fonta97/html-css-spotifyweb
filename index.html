@@ -1,14 +1,267 @@
-<!DOCTYPE html>
-<html>
+<<!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8" />
-    <title>SpotifyWeb</title>
-    <link rel="stylesheet" href="style">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+            integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>boolean-uk-html-spotify</title>
+    </head>
 
-<body>
+    <body>
+        <!-- header -->
+        <header>
+            <button>upgrade</button>
+            <span>
+                <i class="fas fa-chevron-left"></i>
+                <i class="fas fa-chevron-right"></i>
+            </span>
+        </header>
+        <!-- sidebar section ---------------------->
+        <section class="sidebar">
+            <!-- logo -->
+            <div class="logo">
+                <i class="fab fa-spotify"></i>
+                <h1>Spotify</h1>
+            </div>
+            <!-- pages -->
+            <ul class="pages">
+                <li>
+                    <img src="./img/home.svg" alt="home icon">
+                    <a href="#" class="white-color">Home</a>
+                </li>
+                <li>
+                    <img src="./img/search.svg" alt="search icon">
+                    <a href="#">Search</a>
+                </li>
+                <li>
+                    <img src="./img/libreria.svg" alt="library icon">
+                    <a href="#">Your library</a>
+                </li>
+            </ul>
+            <!-- playlist -->
+            <ul class="playlists">
+                <p>Playlist</p>
+                <li class="plus-btn">
+                    <i class="fas fa-plus-square"></i>
+                    <a href="#">Create Playlist</a>
+                </li>
+                <ul class="lists">
+                    <li><a href="#">Playlist Name</a></li>
+                    <li><a href="#">Playlist Name</a></li>
+                    <li><a href="#">Playlist Name</a></li>
+                    <li><a href="#">Playlist Name</a></li>
+                    <li><a href="#">Playlist Name</a></li>
+                    <li><a href="#">Playlist Name</a></li>
+                    <li><a href="#">Playlist Name</a></li>
+                    <li><a href="#">Playlist Name</a></li>
+                </ul>
+            </ul>
+            <!-- install -->
+            <ul class="install">
+                <li class="app-install">
+                    <img src="./img/download.svg" alt="download img">
+                    <button class="app-btn">Install app</button>
+                </li>
+                <li class="profile">
+                    <img src="./img/profile.svg" alt="profile img">
+                    <span>Hannah Nd</span>
+                </li>
+                </div>
+        </section>
+        <!-- main section ------------------------------------->
+        <main>
+            <div class="top-group">
+                <a href="#" class="underline">trending</a>
+                <a href="#">podcast</a>
+                <a href="#">charts</a>
+                <a href="#">genre and moods</a>
+                <a href="#">brand new</a>
+                <a href="#">discover</a>
+            </div>
+            <!-- songs section -->
+            <section class="songs-container">
+                <!-- row1 -->
+                <div class="good-morning-row">
+                    <h2>Good morning</h2>
+                    <div class="top-song-container">
+                        <div class="top-song">
+                            <img src="./img/stress.jpeg" alt="cover pic">
+                            <i class="fas fa-play"></i>
+                            <p>Stress Relief</p>
+                        </div>
+                        <div class="top-song">
+                            <img src="./img/artist.jpeg" alt="cover pic">
+                            <i class="fas fa-play"></i>
+                            <p>Faramarz Aslani</p>
+                        </div>
+                        <div class="top-song">
+                            <img src="./img/adele.jpeg" alt="cover pic">
+                            <i class="fas fa-play"></i>
+                            <p>Adele</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- row2 -->
+                <div class="recently-played-row">
+                    <h2>Recently Played</h2>
+                    <div class="albums">
+                        <div class="album">
+                            <img src="./img/metal_lifting.jpg" alt="cover pic">
+                            <i class="fas fa-play"></i>
+                            <p class="album-name">Heavy Metal</p>
+                            <p class="artist-name">Subtitle</p>
+                        </div>
+                        <div class="album">
+                            <img src="./img/stranger.jpeg" alt="cover pic">
+                            <i class="fas fa-play"></i>
+                            <p class="album-name">Stranger Things</p>
+                            <p class="artist-name">Kyle Dixon& Michael Stein</p>
+                        </div>
+                        <div class="album">
+                            <img src="./img/aquietplace.jpeg" alt="cover pic">
+                            <i class="fas fa-play"></i>
+                            <p class="album-name">A quite place</p>
+                            <p class="artist-name">Subtitle</p>
+                        </div>
+                        <div class="album">
+                            <img src="./img/split.jpeg" alt="cover pic">
+                            <i class="fas fa-play"></i>
+                            <p class="album-name">Split</p>
+                            <p class="artist-name">Subtitle</p>
+                        </div>
+                        <div class="album">
+                            <img src="./img/cure.jpeg" alt="cover pic">
+                            <i class="fas fa-play"></i>
+                            <p class="album-name">A cure for wellness</p>
+                            <p class="artist-name">Subtitle</p>
+                        </div>
+                        <div class="album">
+                            <img src="./img/sinister.jpeg" alt="cover pic">
+                            <i class="fas fa-play"></i>
+                            <p class="album-name">Sinister</p>
+                            <p class="artist-name">Subtitle</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- row3 -->
+                <div class="created-songs-row">
+                    <div class="title">
+                        <h2>Created for Hannah Nd</h2>
+                        <p>The more you listen, the more accurate the suggestions.</p>
+                    </div>
+                    <div class="albums">
+                        <div class="album">
+                            <img src="./img/radar.jpeg" alt="cover pic">
+                            <i class="fas fa-play"></i>
+                            <p class="album-name">Release Radar</p>
+                            <p class="artist-name">Subtitle</p>
+                        </div>
+                        <div class="album">
+                            <img src="./img/mixdaily.jpeg" alt="cover pic">
+                            <i class="fas fa-play"></i>
+                            <p class="album-name">Daily Mix 1</p>
+                            <p class="artist-name">Kyle Dixon& Michael Stein</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- row4 -->
+                <div class="popular-artist-row">
+                    <div class="title">
+                        <h2>Most popular artists</h2>
+                        <p>The more you listen, the more accurate the suggestions.</p>
+                    </div>
+                    <div class="albums">
+                        <div class="album">
+                            <img src="./img/youg.jpeg" alt="cover pic" class="circle-img">
+                            <i class="fas fa-play"></i>
+                            <p class="album-name">Young Beautiful</p>
+                            <p class="artist-name">Subtitle</p>
+                        </div>
+                        <div class="album">
+                            <img src="./img/einaudi.jpeg" alt="cover pic" class="circle-img">
+                            <i class="fas fa-play"></i>
+                            <p class="album-name">Einaudi</p>
+                            <p class="artist-name">Subtitle</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- row5 -->
+                <div class="chill-songs">
+                    <div class="title">
+                        <h2>Chill</h2>
+                        <p>Unwind with these calming playlists.</p>
+                    </div>
+                    <div class="albums">
+                        <div class="album">
+                            <img src="./img/piano.jpeg" alt="cover pic" class="circle-img">
+                            <i class="fas fa-play"></i>
+                            <p class="album-name">Peaceful Piano</p>
+                            <p class="artist-name">Relax and indulge with beautiful piano pieces</p>
+                        </div>
+                        <div class="album">
+                            <img src="./img/meditation.jpeg" alt="cover pic" class="circle-img">
+                            <i class="fas fa-play"></i>
+                            <p class="album-name">Peaceful Meditation</p>
+                            <p class="artist-name">Breath, sense, feel</p>
+                        </div>
+                        <div class="album">
+                            <img src="./img/relaxation.jpeg" alt="cover pic" class="circle-img">
+                            <i class="fas fa-play"></i>
+                            <p class="album-name">Ambient Relaxation</p>
+                            <p class="artist-name">Relax and unwind with chill</p>
+                        </div>
+                    </div>
+                </div>
+        </main>
+        <!-- footer section ------------------------>
+        <footer>
+            <!-- footer-left -->
+            <div class="footer-left">
+                <div class="cover-img">
+                    <img src="./img/sinister.jpeg" alt="cover pic">
+                    <p>Sinister <span>Song Name</span></p>
+                </div>
+                <div class="like-icon">
+                    <span><i class="far fa-heart"></i></span>
+                    <span><i class="far fa-folder"></i></span>
+                </div>
+            </div>
+            <!-- footer middle -->
+            <div class="footer-middle">
+                <div class="play-icons">
+                    <span><i class="fas fa-random"></i></span>
+                    <span><i class="fas fa-step-backward"></i></span>
+                    <span><i class="far fa-play-circle"></i></span>
+                    <span><i class="fas fa-step-forward"></i></span>
+                    <span><i class="fas fa-redo"></i></span>
+                </div>
+                <div class="line">
+                    <span>0:25</span>
+                    <div class="play-line">
+                        <div class="white-bar"></div>
+                        <div class="play-circle"></div>
+                    </div>
+                    <span>4:35</span>
+                </div>
+            </div>
+            <!-- footer right -->
+            <div class="footer-right">
+                <div class="volume-setting">
+                    <span><i class="fas fa-list-ul"></i></span>
+                    <span><i class="fas fa-tv"></i></span>
+                    <span><i class="fas fa-volume-up"></i></span>
+                    <div class="volume-line">
+                        <div class="volume-bar"></div>
+                        <div class="volume-circle"></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
 
-</body>
-
-</html>
+    </html>
